@@ -1,44 +1,26 @@
 # GEMINI TRIAL
 
-A lightweight web development project scaffold for prototyping and testing features. This repository contains the starter files, configuration, and documentation needed to run and extend the project locally.
+This project is a single-page QR attendance prototype built with React, Tailwind CSS, and browser-based QR tools. The main page renders the attendance app, while the styling and application logic now live in separate files for easier maintenance.
 
-## Contents
-- Source code (frontend/backend) — place project files in appropriate folders
-- Configuration files — environment and build settings
-- Documentation — this README and any additional docs
+## Project Files
+- `qr_attendance_synopsis.html` - main HTML entry point
+- `styles.css` - custom UI styles and theme rules
+- `scripts.js` - React app, state handling, QR flow, and dashboard logic
 
-## Requirements
-- Node.js 14+ (or current LTS)
-- npm or yarn
-- Optional: a modern browser for testing
+## What It Does
+- Student login and signup
+- Admin dashboard for student records and attendance logs
+- Faculty scanner for QR attendance marking
+- Student QR preview and download
+- Light and dark theme switching with local storage persistence
 
-## Setup
-1. Clone or copy the project to your machine.
-2. From the project root, install dependencies:
-	 - npm install
-	 - or yarn install
-3. Configure environment variables if needed (create a .env file from .env.example).
-
-## Running
-- Start the development server:
-	- npm start
-	- or yarn start
-- Build for production:
-	- npm run build
-	- or yarn build
-
-## Testing
-- Run tests (if present):
-	- npm test
-	- or yarn test
-
-## Contributing
-- Create feature branches and open pull requests.
-- Keep changes small and focused.
-- Include tests and update documentation when appropriate.
-
-## License
-Specify a license for the project (e.g., MIT) or add a LICENSE file.
+## How To Run
+1. Open `qr_attendance_synopsis.html` in a modern browser, or serve the folder from a local web server.
+2. Make sure the external CDN resources can load.
+3. For camera scanning, use `localhost` or HTTPS so the browser allows camera access.
 
 ## Notes
-This README is a starter template. Update sections to reflect the specific structure, commands, and dependencies of the GEMINI TRIAL project.
+- The UI and behavior are driven by the linked `styles.css` and `scripts.js` files.
+- If you edit the HTML, keep the CSS and script references intact so the app continues to work.
+
+Naveen Kumar

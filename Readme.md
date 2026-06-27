@@ -23,4 +23,4 @@ This project is a single-page QR attendance prototype built with React, Tailwind
 - The UI and behavior are driven by the linked `styles.css` and `scripts.js` files.
 - If you edit the HTML, keep the CSS and script references intact so the app continues to work.
 
-Naveen Kumar Sotwre Developer
+Naveen Kumar Software Developer

@@ -1,4 +1,4 @@
-# GEMINI TRIAL
+# GEMINI TRIAL-:
 
 This project is a single-page QR attendance prototype built with React, Tailwind CSS, and browser-based QR tools. The main page renders the attendance app, while the styling and application logic now live in separate files for easier maintenance.
 

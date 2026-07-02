@@ -12,7 +12,7 @@ This project is a single-page QR attendance prototype built with React, Tailwind
 - Admin dashboard for student records and attendance logs
 - Faculty scanner for QR attendance marking
 - Student QR preview and download
-- Light and dark theme switching with local storage persistence
+- Light and dark theme switching with local storage persistence.
 
 ## How To Run
 1. Open `qr_attendance_synopsis.html` in a modern browser, or serve the folder from a local web server.
